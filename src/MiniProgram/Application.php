@@ -22,7 +22,6 @@ class Application extends ServiceContainer
     protected $providers = [
         Auth\ServiceProvider::class,
         QRCode\ServiceProvider::class,
-        Storage\ServiceProvider::class,
         TemplateMessage\ServiceProvider::class,
     ];
 
